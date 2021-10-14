@@ -1,0 +1,17 @@
+import cv2
+cv2.imread('Video/Ролик 20 секунд.mp4')
+    cv2.imshow('Car', img)
+    cv2.waitKey(0)
+
+kuxna = {'Видео':1}
+
+if
+
+a = input('Введи видео')
+img = cv2.imread('Video/Ролик 20 секунд.mp4')
+    cv2.imshow('video', img[100:200,100:200])
+    cv2.waitKey(0)
+elif kuxna[a] == 1:
+
+
+
