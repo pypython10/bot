@@ -1,9 +1,15 @@
 import cv2
-cv2.imread('Video/Ролик 20 секунд.mp4')
-    cv2.imshow('Car', img)
-    cv2.waitKey(0)
+image = cv2.imread("Photo/Lada.jpg")
+cv2.imshow("Image", image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
-kuxna = {'Видео':1}
+image = cv2.imread('Photo/Tesla.jpg')
+cv2.imshow('Car', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
 
 if
 
@@ -14,4 +20,15 @@ img = cv2.imread('Video/Ролик 20 секунд.mp4')
 elif kuxna[a] == 1:
 
 
+import cv2
+a = {'Лада':1,'Тесла':2,'Бмв':3,'Колобок':4}
+b = input('Введи фото')
 
+if a == 'Лада':
+    image = cv2.imread("Photo/Lada.jpg")
+    cv2.imshow("Image", image)
+    cv2.waitKey(0)
+elif a== 2:
+    image = cv2.imread('Photo/Tesla.jpg')
+    cv2.imshow("Image", image)
+    cv2.waitKey(0)
