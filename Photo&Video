@@ -1,0 +1,15 @@
+import cv2
+
+image = cv2.imread("photo/lada.jpg")
+cv2.imshow("Image", image)
+cv2.waitKey(0)
+
+cap = cv2.VideoCapture('video/videosa.mp4')
+
+
+while True:
+    success, image = cap.read()
+    cv2.imshow('osu', image)
+
+    if cv2.waitKey(25) & 0xFF == ord('z'):
+        break
