@@ -1,0 +1,23 @@
+import time
+stack = []
+stack.append('#####################')
+stack.append('#####################')
+stack.append('#####################')
+a = 0
+
+while a >= 00:
+    for i in stack:
+        print(i, end="")
+    print('\n\n\n\n')
+    time.sleep(0.3)
+    stack[a]=' '
+    stack.append('#')
+    a =a+1
+
+while a <= 00:
+    for i in stack:
+        print(i, end="")
+    print('\n\n\n\n')
+    time.sleep(0.00000001)
+    stack.pop()
+    a =a-1
